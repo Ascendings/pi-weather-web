@@ -1,0 +1,12 @@
+{
+  "db": {
+    "driver": "sqlite3",
+    "host": "localhost",
+    "database": "../weather-pi.db",
+    "username": "",
+    "password": "",
+    "charset": "utf8",
+    "collation": "utf8_unicode_ci",
+    "prefix": ""
+  }
+}

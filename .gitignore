@@ -1,0 +1,10 @@
+# Don't copy around vendor modules
+vendor/
+node_modules/
+
+# these public files are generated with Grunt
+public/css/
+public/js/
+
+# who cares about the SASS cache?
+.sass-cache/

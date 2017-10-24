@@ -1,0 +1,19 @@
+{
+  "name": "laravel-project-template",
+  "version": "1.0.0",
+  "description": "PHP website project template with the Laravel framework",
+  "repository": {
+    "type": "git",
+    "url": "gogs@gogs.ballantine.tech:gballan1/laravel-project-template.git"
+  },
+  "author": "brotherballantine@gmail.com",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "time-grunt": "^1.4.0"
+  }
+}
