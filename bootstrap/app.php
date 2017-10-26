@@ -21,14 +21,6 @@ $c['config'] = function($container) {
   return new \Noodlehaus\Config(__DIR__ . '/../config/app.json');
 };
 
-// database configuration
-require __DIR__ . '/../bootstrap/database.php';
-// setup db
-$c['db'] = function($container) use ($capsule) {
-  return $capsule;
-
-};
-
 // setup our views
 $c['view'] = function($container) {
   $view = new \Slim\Views\Twig(__DIR__ . '/../resources/views', [
